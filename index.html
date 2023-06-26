@@ -3,65 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="styleshit" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/styles.css">
     <title>Web Studio</title>
 </head>
 <body>
     <div class="global-page"> <!-- Main div, change global styles to the page -->
-        <div class="pointers"> <!-- Navigation bar -->
-            <div class="pointers-logo"> <!-- logo container -->
-                <a><span class="logo-style-web">Web</span><span class="logo-style-studio">Studio</span></a> <!-- Logo - text not image -->
-            </div>
-            <div class="pointers-links"> <!-- navigation bar -->
-                <a href="#">Студія</a> <!-- it's a links to other pages or nav in this page? -->
-                <a href="#">Портфоліо</a>
-                <a href="#">Контакти</a>
-            </div>
-            <div class="pointers-contacts"> <!-- contacts in navigation bar -->
-                <address>
-                    <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-                    <a href="tel:+380981111111">+380981111111</a>
-                </address>
-            </div>
-        </div>
         <header>
+            <div class="pointers"> <!-- Navigation bar -->
+                <div class="pointers-logo"> <!-- logo container -->
+                    <a><span class="logo-style-web">Web</span><span class="logo-style-studio">Studio</span></a>
+                    <!-- Logo - text not image -->
+                </div>
+                <div class="nav"> <!-- navigation bar -->
+                    <nav class="nav-bar">
+                        <ul class="nav-bar-list">
+                            <li><a href="#">Студія</a></li> <!-- it's a links to other pages or nav in this page? -->
+                            <li><a href="#">Портфоліо</a></li>
+                            <li><a href="#">Контакти</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="pointers-contacts"> <!-- contacts in navigation bar -->
+                    <address>
+                        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                        <a href="tel:+380981111111">+380981111111</a>
+                    </address>
+                </div>
+            </div>
+        </header>
+        <main> <!-- about us and our team -->
             <div class="order-info"> <!-- order and order button -->
                 Ефективні рішення для вашого бізнесу
             </div>
             <div class="order-button">
-                <button>Замовити послугу</button>
+                <button type="button">Замовити послугу</button>
             </div>
-        </header>
-        <main> <!-- about us and our team -->
             <div class="about-us">
                 <div class="about-us-features">
                     <div class="about-us-features-text">
-                        <h4 class="about-us-features-text">увага до деталей</h4>
+                        <h2 class="about-us-features-text">увага до деталей</h2>
                         <p class="about-us-features-text">ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
                     </div>
                     <div class="about-us-features-text">
-                        <h4 class="about-us-features-text">пунктуальність</h4>
+                        <h2 class="about-us-features-text">пунктуальність</h2>
                         <p class="about-us-features-text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
                     </div>
                     <div class="about-us-features-text">
-                        <h4 class="about-us-features-text">планування</h4>
+                        <h2 class="about-us-features-text">планування</h2>
                         <p class="about-us-features-text">Так само консультація з широким активом значною мірою зумовлює.</p>
                     </div>
                     <div class="about-us-features-text">
-                        <h4 class="about-us-features-text">сучасні технології</h4>
+                        <h2 class="about-us-features-text">сучасні технології</h2>
                         <p class="about-us-features-text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
                     </div>
                 </div>
                 <div class="about-us-what-do">
                     <p>Чим ми займаємося</p>
                     <div>
-                        <img src="images/first.png" alt="Підбираємо кольори">
+                        <img src="images/first.jpg" alt="Підбираємо кольори" width="400px">
                     </div>
                     <div>
-                        <img src="images/second.png" alt="Створюємо адаптивну верстку для сайту">
+                        <img src="images/second.jpg" alt="Створюємо адаптивну верстку для сайту" width="400px">
                     </div>
                     <div>
-                        <img src="images/third.png" alt="Пишемо код для сайту">
+                        <img src="images/third.jpg" alt="Пишемо код для сайту" width="400px">
                     </div>
                 </div>
             </div>
@@ -70,7 +75,7 @@
                     <p>наша команда</p>
                     <div class="our-team-main-member"> <!-- member card with photo and description -->
                         <div class="our-team-main-member-photo"> 
-                            <img src="images/igor.png" alt="Ігор Дем'яненко">
+                            <img src="images/igor.jpg" alt="Ігор Дем'яненко" width="160px">
                         </div>
                         <div class="our-team-main-member-description">
                             <div class="our-team-main-member-description-name">Ігор Дем'яненко</div>
@@ -79,7 +84,7 @@
                     </div>
                     <div class="our-team-main-member"> <!-- member card with photo and description -->
                         <div class="our-team-main-member-photo">
-                            <img src="images/olha.png" alt="Ольга Рєпіна">
+                            <img src="images/olha.jpg" alt="Ольга Рєпіна" width="160px">
                         </div>
                         <div class="our-team-main-member-description">
                             <div class="our-team-main-member-description-name">Ольга Рєпіна</div>
@@ -88,7 +93,7 @@
                     </div>
                     <div class="our-team-main-member"> <!-- member card with photo and description -->
                         <div class="our-team-main-member-photo">
-                            <img src="images/hicholas.png" alt="Микола Тарасов">
+                            <img src="images/hicholas.jpg" alt="Микола Тарасов" width="160px">
                         </div>
                         <div class="our-team-main-member-description">
                             <div class="our-team-main-member-description-name">Микола Тарасов</div>
@@ -97,7 +102,7 @@
                     </div>
                     <div class="our-team-main-member"> <!-- member card with photo and description -->
                         <div class="our-team-main-member-photo">
-                            <img src="images/misha.png" alt="Михайло Єрмаков">
+                            <img src="images/misha.jpg" alt="Михайло Єрмаков" width="160px">
                         </div>
                         <div class="our-team-main-member-description">
                             <div class="our-team-main-member-description-name">Михайло Єрмаков</div>
