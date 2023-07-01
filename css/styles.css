@@ -1,0 +1,21 @@
+.logo-style {
+    text-decoration: none;
+}
+
+.logo-style-studio {
+    font-size: 26px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    color: #000;
+
+}
+.logo-style-web {
+    font-size: 26px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    color: #2196F3;
+}
+
+ul {
+    list-style-type: none;
+}
