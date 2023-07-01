@@ -10,6 +10,7 @@ header {
     width: 1600px;
     height: 80px;
     display: flex;
+    background-color: #7575; /* just for see header, bee deleted */
 }
 
 .logo-style {
@@ -18,14 +19,12 @@ header {
 
 .logo-style-studio {
     font-size: 26px;
-    font-family: 'Montserrat', sans-serif;
     font-family: 'Raleway', sans-serif;
     color: #000;
 
 }
 .logo-style-web {
     font-size: 26px;
-    font-family: 'Montserrat', sans-serif;
     font-family: 'Raleway', sans-serif;
     color: #2196F3;
 }
@@ -37,6 +36,7 @@ ul {
 
 .nav-bar-list {
     display: flex;
+    font-weight: 500;
 }
 
 .nav-bar-list-a {
@@ -51,6 +51,8 @@ ul {
 
 .nav-contacts {
     display: flex;
+    font-weight: 500;
+    font-size: 14px;
 }
 
 .nav-contacts-a {
