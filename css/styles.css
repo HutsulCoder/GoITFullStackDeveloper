@@ -1,4 +1,4 @@
-.global-page {
+body {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -10,6 +10,7 @@ header {
     width: 1600px;
     height: 80px;
     display: flex;
+    justify-content: space-around;
     background-color: #7575; /* just for see header, bee deleted */
 }
 
@@ -63,4 +64,26 @@ ul {
 
 .nav-contacts-a:hover {
     color:#2196F3;
+}
+
+/* MAIN */
+
+main {
+    
+}
+
+/* ABOUT US WHAT DO */
+
+.about-us-what-do {
+    align: center;
+}
+
+.about-us-what-do-h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.about-us-what-do-list {
+    display: flex;
+    justify-content: space-around;
 }
