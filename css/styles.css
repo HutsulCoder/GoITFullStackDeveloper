@@ -18,4 +18,14 @@
 
 ul {
     list-style-type: none;
+    text-decoration: none
+}
+
+.nav-bar-list-a {
+    color: #000;
+    text-decoration: none;
+}
+
+.nav-bar-list-a:hover {
+    color: #2196F3;
 }
