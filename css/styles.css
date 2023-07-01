@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
+    width: 1600px;
 }
 
 a {
@@ -7,7 +8,6 @@ a {
 }
 
 header {
-    width: 1600px;
     height: 80px;
     display: flex;
     justify-content: space-around;
@@ -66,17 +66,37 @@ ul {
     color:#2196F3;
 }
 
-/* MAIN */
+/* ///// MAIN */
 
 main {
-    
+
 }
 
-/* ABOUT US WHAT DO */
+/* ///// ORDER INFO */
 
-.about-us-what-do {
-    align: center;
+.order-info {
+    background-color: #2F303A;
+    justify-content: center;
+    height: 600px;
 }
+
+.order-info h1 {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 900;
+    text-align: center;
+}
+
+button {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+/* ////// ABOUT US WHAT DO */
+
+/* .about-us-what-do {
+
+} */
 
 .about-us-what-do-h2 {
     display: flex;
