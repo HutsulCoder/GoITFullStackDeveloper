@@ -11,13 +11,13 @@ header {
     height: 80px;
     display: flex;
     justify-content: space-around;
-    background-color: #7575; /* just for see header, bee deleted */
+    align-items: center;
+    margin: 0px;
 }
 
 .logo-style {
     text-decoration: none;
-    margin-top: 24px;
-    margin-left: 215px;
+    /* margin: 24px 0px 0px 215px; */
 }
 
 .logo-style-studio {
@@ -39,6 +39,7 @@ ul {
 
 .nav-bar-list {
     display: flex;
+    justify-content: space-between;
     font-weight: 500;
 }
 
@@ -69,7 +70,7 @@ ul {
 /* ///// MAIN */
 
 main {
-
+    margin: 0px;
 }
 
 /* ///// ORDER INFO */
