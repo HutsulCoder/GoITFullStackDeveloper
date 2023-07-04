@@ -12,6 +12,8 @@ ul {
     text-decoration: none;
 }
 
+/* ///// HEADER ///// */
+
 header {
     height: 80px;
     display: flex;
@@ -44,6 +46,10 @@ header {
     font-weight: 500;
 }
 
+.nav-list-style {
+    margin: 0px 20px 0px 20px;
+}
+
 .nav-bar-list-a {
     color: #000;
     text-decoration: none;
@@ -68,22 +74,24 @@ header {
     color:#2196F3;
 }
 
-/* ///// MAIN */
+/* ///// MAIN ///// */
 
 main {
     margin: 0px;
     padding: 0px;
 }
 
-/* ///// ORDER INFO */
+/* ///// ORDER INFO ///// */
 
 .order-info {
     background-color: #2F303A;
+    display: grid;
     justify-content: center;
+    align-content: center;
     height: 600px;
 }
 
-.order-info h1 {
+h1 {
     text-transform: uppercase;
     color: #ffffff;
     font-weight: 900;
