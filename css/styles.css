@@ -103,7 +103,17 @@ button {
     color: #FFFFFF;
 }
 
-/* ////// ABOUT US WHAT DO */
+/* ///// ABOUT US ///// */
+
+.about-us h2 {
+    text-align: center;
+}
+
+.about-us-features {
+    display: flex;
+}
+
+/* ////// ABOUT US WHAT DO ///// */
 
 /* .about-us-what-do {
 
