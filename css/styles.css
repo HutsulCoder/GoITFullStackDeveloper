@@ -3,6 +3,10 @@ body {
     width: 1600px;
 }
 
+.all-margin {
+    margin: 0px 215px 0px 215px;
+}
+
 a {
     text-decoration: none;
 }
@@ -92,6 +96,7 @@ main {
 }
 
 h1 {
+    font-size: 44px;
     text-transform: uppercase;
     color: #ffffff;
     font-weight: 900;
@@ -106,11 +111,20 @@ button {
 /* ///// ABOUT US ///// */
 
 .about-us h2 {
+    font-size: 36px;
     text-align: center;
 }
 
 .about-us-features {
     display: flex;
+}
+
+.about-us-features-text h3 {
+    text-transform: uppercase;
+}
+
+.about-us-features-text p {
+    text-decoration: line-through ;
 }
 
 /* ////// ABOUT US WHAT DO ///// */
@@ -120,6 +134,7 @@ button {
 } */
 
 .about-us-what-do-h2 {
+    font-size: 36px;
     display: flex;
     justify-content: center;
 }
@@ -127,4 +142,16 @@ button {
 .about-us-what-do-list {
     display: flex;
     justify-content: space-around;
+}
+
+/* ///// OUR TEAM ///// */
+
+.our-team h2 {
+    text-align: center;
+    font-size: 36px;
+}
+
+.our-team-main {
+    display: flex;
+    justify-content: space-between;
 }
