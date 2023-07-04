@@ -3,12 +3,12 @@ body {
     width: 1600px;
 }
 
-/* .main-page{
-    display: block;
-    align-items: center;
-} */
-
 a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
     text-decoration: none;
 }
 
@@ -36,11 +36,6 @@ header {
     font-size: 26px;
     font-family: 'Raleway', sans-serif;
     color: #2196F3;
-}
-
-ul {
-    list-style-type: none;
-    text-decoration: none;
 }
 
 .nav-bar-list {
