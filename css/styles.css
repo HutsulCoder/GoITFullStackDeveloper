@@ -124,7 +124,7 @@ button {
 }
 
 .about-us-features-text p {
-    text-decoration: line-through ;
+    text-align: justify;
 }
 
 /* ////// ABOUT US WHAT DO ///// */
