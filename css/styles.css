@@ -117,6 +117,7 @@ button {
 
 .about-us-features {
     display: flex;
+    justify-content: space-around;
 }
 
 .about-us-features-text h3 {
@@ -154,4 +155,10 @@ button {
 .our-team-main {
     display: flex;
     justify-content: space-between;
+}
+
+/* ///// FOOTER ///// */
+
+footer {
+    display: block;
 }
