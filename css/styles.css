@@ -108,6 +108,8 @@ h1 {
 }
 
 button {
+    font-size: 16px;
+    letter-spacing: 2px;
     background-color: #2196F3;
     color: #FFFFFF;
     padding: 20px 60px;
@@ -127,7 +129,13 @@ button {
 
 .about-us-features {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+
+.about-us-features li {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 .about-us-features-text h3 {
