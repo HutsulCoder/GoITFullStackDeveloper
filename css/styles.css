@@ -9,6 +9,7 @@ body {
 
 a {
     text-decoration: none;
+    font-style: normal;
 }
 
 ul {
@@ -31,7 +32,6 @@ header {
 
 .logo-style {
     text-decoration: none;
-    /* margin: 24px 0px 0px 215px; */
 }
 
 .logo-style-studio {
@@ -122,6 +122,10 @@ button {
 
 /* ///// ABOUT US ///// */
 
+.about-us {
+    display: block;
+}
+
 .about-us h2 {
     font-size: 36px;
     text-align: center;
@@ -130,12 +134,7 @@ button {
 .about-us-features {
     display: flex;
     justify-content: space-between;
-}
-
-.about-us-features li {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .about-us-features-text h3 {
@@ -156,6 +155,7 @@ button {
     font-size: 36px;
     display: flex;
     justify-content: center;
+    font-weight: 700;
 }
 
 .about-us-what-do-list {
@@ -165,9 +165,20 @@ button {
 
 /* ///// OUR TEAM ///// */
 
+.our-team {
+    background-color: #F5F4FA;
+    height: 648px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .our-team h2 {
     text-align: center;
     font-size: 36px;
+    font-weight: 700;
+    color: #212121;
 }
 
 .our-team-main {
@@ -178,5 +189,43 @@ button {
 /* ///// FOOTER ///// */
 
 footer {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 1600px;
+    height: 252px;
+    background-color: #2F303A;
+}
+
+.logo-style-studio-footer {
+    font-size: 26px;
+    font-family: 'Raleway', sans-serif;
+    color: #FFFFFF;
+}
+
+.footer-adress-list {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+
+.footer-adress-map {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+
+.footer-adress-contacts a {
+    color: #FFFFFF99;;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        text-align: left;
 }
