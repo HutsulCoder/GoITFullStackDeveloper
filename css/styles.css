@@ -170,7 +170,11 @@ button {
 /* ///// OUR TEAM ///// */
 
 .our-team {
+    height: 648px;
     background-color: #F5F4FA;
+}
+
+.our-team-div {
     height: 648px;
     display: flex;
     flex-direction: column;
@@ -188,6 +192,8 @@ button {
 .our-team-main {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
 }
 
 /* ///// FOOTER ///// */
