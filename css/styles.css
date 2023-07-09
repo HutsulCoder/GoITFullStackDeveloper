@@ -108,7 +108,8 @@ h1 {
     text-align: center;
 }
 
-button {
+.order-button {
+    text-align: center;
     font-size: 16px;
     letter-spacing: 2px;
     background-color: #2196F3;
@@ -121,21 +122,64 @@ button {
     font-weight: 700;
 }
 
+/* ///// ABOUT US AND ABOUT US WHAT DO */
+
+.about-us-and-what-do {
+    height: 776px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+
 /* ///// ABOUT US ///// */
 
 .about-us {
-    display: block;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .about-us h2 {
     font-size: 36px;
     text-align: center;
+    margin: 0 0 1em 0;
 }
 
 .about-us-features {
+    width: 1170px;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    height: 98px;
+    margin-block: 0;
+}
+
+.about-us-features-text {
+    display: flex;
+    flex-direction: column;
+        width: 270px;
+}
+
+.about-us-features-text h3 {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    margin: 0 0 1em 0;
+    color: #212121;
+}
+
+.about-us-features-text p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    margin: 0;
+    color: #757575;
 }
 
 .about-us-features-text h3 {
@@ -242,3 +286,6 @@ footer {
 
 /* ///// PORTFOLIO ///// */
 
+.button-nav {
+
+}
