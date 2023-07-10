@@ -240,6 +240,13 @@ h1 {
     flex-direction: row;
 }
 
+.our-team-main-member h3 {
+    text-align: center;
+}
+.our-team-main-member p {
+    text-align: center;
+}
+
 /* ///// FOOTER ///// */
 
 footer {
@@ -287,5 +294,5 @@ footer {
 /* ///// PORTFOLIO ///// */
 
 .button-nav {
-
+    color: #000;
 }
