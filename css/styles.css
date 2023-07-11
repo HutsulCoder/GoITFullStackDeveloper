@@ -1,11 +1,12 @@
 body {
     font-family: 'Roboto', sans-serif;
     width: 1600px;
+    color: #212121;
 }
 
-.all-margin {
-    margin: 0px 215px 0px 215px;
-}
+/* .all-margin {
+    margin: 0px 215px 0px 215px;  Ще не догадався, як мені забрати цей глобальний елемент і зробити відступи 
+} */
 
 a {
     text-decoration: none;
@@ -22,13 +23,16 @@ ul {
 
 header {
     height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.nav { /* не розумію чому тут відступ */
+.nav {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     height: 80px;
+    width: 1170px;
 }
 
 .logo-style {
@@ -67,7 +71,7 @@ header {
     color: #2196F3;
 }
 
-.nav-contacts {
+.nav-contacts ul {
     display: flex;
     font-weight: 500;
     font-size: 14px;
@@ -97,15 +101,16 @@ main {
     align-items: center;
     flex-direction: column;
     height: 600px;
+    
 }
 
 h1 {
     font-size: 44px;
     text-transform: uppercase;
-    letter-spacing: 5px;
     color: #ffffff;
     font-weight: 900;
     text-align: center;
+    line-height: 1.36;
 }
 
 .order-button {
@@ -159,7 +164,7 @@ h1 {
 .about-us-features-text {
     display: flex;
     flex-direction: column;
-        width: 270px;
+    width: 270px;
 }
 
 .about-us-features-text h3 {
@@ -175,7 +180,7 @@ h1 {
 .about-us-features-text p {
     font-size: 14px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     text-align: left;
     margin: 0;
@@ -254,7 +259,6 @@ footer {
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    width: 1600px;
     height: 252px;
     background-color: #2F303A;
 }
