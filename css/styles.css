@@ -33,7 +33,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 80px;
+    line-height: 1.17;
 }
 
 .logo-style {
@@ -58,17 +58,17 @@ header {
     font-weight: 500;
 }
 
-.nav-list-style {
+.nav-bar li {
     margin: 0px 20px 0px 20px;
 }
 
-.nav-bar-list-a {
-    color: #000;
+.nav-bar a {
+    color: #212121;
     text-decoration: none;
     font-size: 14px;
 }
 
-.nav-bar-list-a:hover {
+.nav-bar a:hover {
     color: #2196F3;
 }
 
@@ -142,6 +142,7 @@ h1 {
 /* ///// ABOUT US ///// */
 
 .about-us {
+    height: 120px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -150,7 +151,6 @@ h1 {
 
 .about-us h2 {
     font-size: 36px;
-    text-align: center;
     margin: 0 0 1em 0;
 }
 
@@ -159,7 +159,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    height: 98px;
+/*     height: 120px; */
     margin-block: 0;
 }
 
@@ -199,9 +199,16 @@ h1 {
 
 /* ////// ABOUT US WHAT DO ///// */
 
+.about-us-what-do {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .about-us-what-do div {
     display: flex;
     flex-direction: column;
+    width: 1170px;
 }
 
 .about-us-what-do-h2 {
@@ -223,14 +230,18 @@ h1 {
 .our-team {
     height: 648px;
     background-color: #F5F4FA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.our-team-div {
+.our-team div {
     height: 648px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 1170px;
 }
 
 .our-team h2 {
@@ -245,6 +256,7 @@ h1 {
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
+    width: 1170px;
 }
 
 .our-team-main-member h3 {
@@ -267,8 +279,8 @@ footer {
 
 footer div {
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
     flex-direction: column;
     width: 1170px;
 }
@@ -279,12 +291,8 @@ footer div {
     color: #FFFFFF;
 }
 
-.footer-adress-list {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    text-align: left;
+footer ul {
+    line-height: 1.71;
 }
 
 .footer-adress-map {
