@@ -2,11 +2,11 @@ body {
     font-family: 'Roboto', sans-serif;
     width: 1600px;
     color: #212121;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-
-/* .all-margin {
-    margin: 0px 215px 0px 215px;  Ще не догадався, як мені забрати цей глобальний елемент і зробити відступи 
-} */
 
 a {
     text-decoration: none;
@@ -24,15 +24,16 @@ ul {
 header {
     height: 80px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    width: 1170px;
 }
 
 .nav {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     height: 80px;
-    width: 1170px;
 }
 
 .logo-style {
@@ -90,6 +91,7 @@ header {
 main {
     margin: 0px;
     padding: 0px;
+    width: 1600px;
 }
 
 /* ///// ORDER INFO ///// */
@@ -261,6 +263,7 @@ footer {
     flex-direction: column;
     height: 252px;
     background-color: #2F303A;
+    width: 1600px;
 }
 
 .logo-style-studio-footer {
