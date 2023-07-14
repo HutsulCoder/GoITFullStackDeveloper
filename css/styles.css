@@ -17,6 +17,7 @@ body {
 a {
     text-decoration: none;
     font-style: normal;
+    cursor: pointer;
 }
 
 ul {
@@ -173,7 +174,7 @@ h1 {
     height: 120px;
     display: flex;
     align-items: center;
-    flex-direction: ;
+    flex-direction: column ;
     justify-content: center;
 }
 
@@ -359,6 +360,7 @@ footer ul {
     line-height: 24px;
     letter-spacing: 0.03em;
     text-align: left;
+    
 }
 
 .footer-adress-contacts a {
@@ -368,11 +370,4 @@ footer ul {
     line-height: 24px;
     letter-spacing: 0.03em;
     text-align: left;
-}
-
-/* ///// PORTFOLIO ///// */
-
-.button-nav {
-    color: #000;
-    cursor: pointer;
 }
