@@ -2,6 +2,7 @@
     --main-font-color: #212121;
     --secondary-font-color: #757575;
     --hover-and-logo-font-color: #2196F3;
+    --main-width: 1170px;
 }
 
 body {
@@ -108,8 +109,12 @@ header div {
     color: var(--secondary-font-color);
 }
 
+/* ///// MAIN ///// */
+
 main nav {
     display: flex;
+    width: var(--main-width);
+    height: 1360px;
 }
 
 .button-nav {

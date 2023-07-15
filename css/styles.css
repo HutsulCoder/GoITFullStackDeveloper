@@ -2,11 +2,13 @@
     --main-font-color: #212121;
     --secondary-font-color: #757575;
     --hover-and-logo-font-color: #2196F3;
+    --main-width: 1170px; /* width of sections, header and footer */
+    --secondary-width: 1600px; /* width of all document */
 }
 
 body {
     font-family: 'Roboto', sans-serif;
-    width: 1600px;
+    width: var(--secondary-width);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -47,7 +49,7 @@ header {
 header div {
     display: flex;
     justify-content: center;
-    width: 1170px;
+    width: var(--main-width);
     align-items: center;
 }
 
@@ -113,7 +115,7 @@ header div {
 main {
     margin: 0px;
     padding: 0px;
-    width: 1600px;
+    width: var(--secondary-width);
 }
 
 /* ///// ORDER INFO ///// */
@@ -197,7 +199,7 @@ h1 {
 }
 
 .about-us-features {
-    width: 1170px;
+    width: var(--main-width);
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -249,7 +251,7 @@ h1 {
 .about-us-what-do div {
     display: flex;
     flex-direction: column;
-    width: 1170px;
+    width: var(--main-width);
 }
 
 .about-us-what-do h2 {
@@ -284,7 +286,7 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 1170px;
+    width: var(--main-width);
 }
 
 .our-team h2 {
@@ -299,7 +301,7 @@ h1 {
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    width: 1170px;
+    width: var(--main-width);
 }
 
 .our-team-main-member {
@@ -329,7 +331,7 @@ h1 {
 footer {
     height: 252px;
     background-color: #2F303A;
-    width: 1600px;
+    width: var(--secondary-width);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -340,7 +342,7 @@ footer div {
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    width: 1170px;
+    width: var(--main-width);
 }
 
 .logo-style-studio-footer {
