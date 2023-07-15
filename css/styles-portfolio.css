@@ -2,7 +2,8 @@
     --main-font-color: #212121;
     --secondary-font-color: #757575;
     --hover-and-logo-font-color: #2196F3;
-    --main-width: 1170px;
+    --main-width: 1170px; /* width of sections, header and footer */
+    --secondary-width: 1600px; /* width of all document */
 }
 
 body {
@@ -42,6 +43,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-bottom: 1px solid #ECECEC;
 }
 
 header div {
@@ -111,27 +113,134 @@ header div {
 
 /* ///// MAIN ///// */
 
-main nav {
+main {
+    width: var(--secondary-width);
     display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1548px;
+}
+
+.portfolio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
     width: var(--main-width);
     height: 1360px;
+}
+
+main nav {
+    width: 575px;
+    height: 54px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .button-nav {
     cursor: pointer;
     color: var(--main-font-color);
     background-color: #F5F4FA;
-    width: 216px;
-    height: 50px;
+    height: 38px;
     text-align: center;
     cursor: pointer;
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 500;
     letter-spacing: 1px;
     border-radius: 4px;
     border: 0px;
     font-family: 'Roboto', sans-serif;
-    box-shadow: 0px 4px 4px 0px #00000026;
+}
+
+.button-nav:hover {
+    box-shadow: 0px 2px 2px 0px #0000001F;
+    box-shadow: 0px 1px 2px 0px #00000014;
+    box-shadow: 0px 3px 1px 0px #0000001A;
+    background-color: var(--hover-and-logo-font-color);
+    color: #FFF;
+}
+
+.button-nav:focus {
+    box-shadow: 0px 2px 2px 0px #0000001F;
+    box-shadow: 0px 1px 2px 0px #00000014;
+    box-shadow: 0px 3px 1px 0px #0000001A;
+    background-color: var(--hover-and-logo-font-color);
+    color: #FFF;
+}
+
+.button-nav-one {
+    width: 73px;
+}
+
+.button-nav-two {
+    width: 125px;
+}
+
+.button-nav-three {
+    width: 112px;
+}
+
+.button-nav-four {
+    width: 103px;
+}
+
+.button-nav-five {
+    width: 130px;
+}
+
+.portfolio-elements {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 1302px;
+}
+
+.portfolio-elements li {
+    width: 370px;
+    height: 404px;
+    border: 1px solid #EEEEEE;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+    align-items: center;
+}
+
+.portfolio-elements img {
+    width: 370px;
+    height: 294px;
+}
+
+.portfolio-elements-container {
+    width: 370px;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio-elements-container div {
+    height: 70px;
+    width: 322px;
+}
+
+.portfolio-elements h2 {
+    color: var(--main-font-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 6%;
+    margin: 0;
+}
+
+.portfolio-elements p {
+    color: var(--secondary-font-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.875;
+    margin: 0;
 }
 
 /* ///// FOOTER ///// */
