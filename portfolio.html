@@ -8,9 +8,7 @@
     <title>Web Studio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -37,7 +35,7 @@
     <main>
         <div class="portfolio">
             <nav>
-                <button type="button" class="button-nav button-nav-one" width>Усі</button>
+                <button type="button" class="button-nav button-nav-one">Усі</button>
                 <button type="button" class="button-nav button-nav-two">Веб-сайти</button>
                 <button type="button" class="button-nav button-nav-three">Додатки</button>
                 <button type="button" class="button-nav button-nav-four">Дизайн</button>
@@ -130,6 +128,10 @@
             </section>
         </div>
     </main>
+    <audio id="myAudio">
+    <source src="data/1.mp3" autoplay loop type="audio/mpeg">
+    </audio>
+    <button onclick="playAudio()" type="button" class="button-nav">DON`T PRESS THIS BUTTON</button>
     <footer> <!-- logo, state, email, phone number -->
         <div>
             <a href="./index.html"><span class="logo-style-web">Web</span><span class="logo-style-studio-footer">Studio</span></a><!-- Logo - text not image -->
@@ -148,5 +150,13 @@
             </address>
         </div>
     </footer>
+    <script>
+var x = document.getElementById("myAudio"); 
+
+function playAudio() { 
+  x.play(); 
+};
+
+</script>
 </body>
 </html>
