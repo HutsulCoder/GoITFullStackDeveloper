@@ -127,7 +127,9 @@ main {
     align-items: center;
     flex-direction: column;
     height: 600px;
-    
+    background-image: url("../images/background.jpg");
+/*     background: rgba(47, 48, 58, 0.4);
+    background: rgba(196, 196, 196, 1); */
 }
 
 h1 {
@@ -173,7 +175,7 @@ h1 {
 /* ///// ABOUT US ///// */
 
 .about-us {
-    height: 120px;
+    height: 248px;
     display: flex;
     align-items: center;
     flex-direction: column ;
@@ -203,41 +205,57 @@ h1 {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-/*     height: 120px; */
+    height: 248px;
     margin-block: 0;
 }
 
-.about-us-features-text {
+.about-us-features li {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     width: 270px;
+    height: 248px;
 }
 
-.about-us-features-text h3 {
+.about-us-features-img {
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5F4FA;
+
+}
+
+.about-us-features-img img {
+    width: 70px;
+    height: 70px;
+}
+
+.about-us-features h3 {
     font-size: 14px;
     font-weight: 700;
     line-height: 16px;
     letter-spacing: 0.03em;
     text-align: left;
     margin: 0 0 1em 0;
+    text-transform: uppercase;
 }
 
-.about-us-features-text p {
+.about-us-features p {
     font-size: 14px;
     font-weight: 400;
     line-height: 1.71;
     letter-spacing: 0.03em;
     text-align: left;
     margin: 0;
+    text-align: justify;
     color: var(--secondary-font-color);
 }
 
-.about-us-features-text h3 {
-    text-transform: uppercase;
-}
-
-.about-us-features-text p {
-    text-align: justify;
+.about-us-features-text {
+    height: 102px;
 }
 
 /* ////// ABOUT US WHAT DO ///// */
