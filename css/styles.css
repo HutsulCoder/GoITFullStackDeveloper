@@ -28,7 +28,7 @@ ul {
     padding-inline-start: 0px;
 }
 
-.nav-bar a:hover, .nav-contacts-a:hover, .footer-adress a:hover {
+.nav-bar a:hover, .nav-contacts-a:hover, .footer-adress a:hover { /* hover for all links */
     color: var(--hover-and-logo-font-color);
 }
 
@@ -310,7 +310,7 @@ h1 {
     line-height: 1.17;
 }
 
-.our-team div {
+.our-team-div {
     height: 648px;
     display: flex;
     flex-direction: column;
@@ -334,7 +334,11 @@ h1 {
     width: var(--main-width);
 }
 
-.our-team-main-member {
+.our-team-main-member { /* member card */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
     width: 270px;
     height: 428px;
     background-color: #FFFFFF;
@@ -345,36 +349,62 @@ h1 {
     box-shadow: 0px 1px 3px 0px #0000001F;
 }
 
+.our-team-main-member-description {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 270px;
+    height: 168px;
+}
+
+.our-team-main-member-description-text {
+    margin: 0px 0px 16px 0px;
+}
+
 .our-team-main-member h3 {
+    height: 19px;
+    font-size: 16px;
     text-align: center;
     font-weight: 500;
     color: var(--main-font-color);
+    margin: 0px 0px 10px 0px;
 }
 .our-team-main-member p {
+    height: 19px;
     text-align: center;
+    font-size: 16px;
     color: var(--secondary-font-color);
     font-weight: 400;
+    margin: 0;
 }
 
-.our-team-main-member div {
+.member-social-icons { /* member social icons */
     width: 206px;
     height: 44px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
-.our-team-main-member svg:hover {
-    color: #2196F3;
-}
-
-.insta-icon {
+.member-social-icons a {
     width: 44px;
     height: 44px;
-    fill: blue;
 }
 
-.twitter-svg {
-    width: 44px;
-    height: 44px;
+.instagram:hover .circle-icon, .twitter:hover .circle-icon, .facebook:hover .circle-icon, .linkedin:hover .circle-icon {
+    /* Hover for all circles in socisal icons */
     fill: #2196F3;
+}
+
+.instagram:hover .insta-icon, .twitter:hover .twitter-icon, .facebook:hover .facebook-icon, .linkedin:hover .linkedin-icon {
+    /* Hover for all social icons */
+    fill: #ffffff;
+}
+
+.insta-icon, .twitter-icon, .facebook-icon .linkedin-icon {
+    fill: #AFB1B8;
 }
 
 /* ///// FOOTER ///// */
