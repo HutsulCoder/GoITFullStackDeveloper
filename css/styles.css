@@ -110,6 +110,18 @@ header div {
     color: var(--secondary-font-color);
 }
 
+.nav-contacts-envelope {
+    width: 16px;
+    height: 12px;
+    color: var(--secondary-font-color);
+}
+
+.nav-contacts-phone {
+    width: 10px;
+    height: 16px;
+    color: var(--hover-and-logo-font-color);
+}
+
 /* ///// MAIN ///// */
 
 main {
@@ -324,7 +336,7 @@ h1 {
 
 .our-team-main-member {
     width: 270px;
-    height: 368px;
+    height: 428px;
     background-color: #FFFFFF;
     font-size: 16px;
     border-radius: 0px 0px 4px 4px;
@@ -342,6 +354,27 @@ h1 {
     text-align: center;
     color: var(--secondary-font-color);
     font-weight: 400;
+}
+
+.our-team-main-member div {
+    width: 206px;
+    height: 44px;
+}
+
+.our-team-main-member svg:hover {
+    color: #2196F3;
+}
+
+.insta-icon {
+    width: 44px;
+    height: 44px;
+    fill: blue;
+}
+
+.twitter-svg {
+    width: 44px;
+    height: 44px;
+    fill: #2196F3;
 }
 
 /* ///// FOOTER ///// */
