@@ -393,17 +393,34 @@ h1 {
     height: 44px;
 }
 
-.instagram:hover .circle-icon, .twitter:hover .circle-icon, .facebook:hover .circle-icon, .linkedin:hover .circle-icon {
+.instagram:hover .circle-icon,
+.instagram:focus .circle-icon,
+.twitter:hover .circle-icon,
+.twitter:focus .circle-icon,
+.facebook:hover .circle-icon,
+.facebook:focus .circle-icon,
+.linkedin:hover .circle-icon,
+.linkedin:focus .circle-icon {
     /* Hover for all circles in socisal icons */
     fill: #2196F3;
 }
 
-.instagram:hover .insta-icon, .twitter:hover .twitter-icon, .facebook:hover .facebook-icon, .linkedin:hover .linkedin-icon {
+.instagram:hover .insta-icon,
+.instagram:focus .insta-icon,
+.twitter:hover .twitter-icon, 
+.twitter:focus .twitter-icon, 
+.facebook:hover .facebook-icon, 
+.facebook:focus .facebook-icon, 
+.linkedin:hover .linkedin-icon,
+.linkedin:focus .linkedin-icon {
     /* Hover for all social icons */
     fill: #ffffff;
 }
 
-.insta-icon, .twitter-icon, .facebook-icon .linkedin-icon {
+.insta-icon,
+.twitter-icon,
+.facebook-icon,
+.linkedin-icon {
     fill: #AFB1B8;
 }
 
