@@ -46,16 +46,12 @@ header {
     align-items: center;
 }
 
-header div {
+.header-main-div  {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     width: var(--main-width);
     align-items: center;
 }
-
-/* .header-main-div {
-
-} */
 
 .nav {
     display: flex;
@@ -102,7 +98,7 @@ header div {
 }
 
 .nav-contacts ul {
-    width: 283px;
+    width: 333px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -118,8 +114,45 @@ header div {
     align-items: center;
 }
 
-.nav-contacts-icons {
+.nav-contacts-div-second {
+    width: 142px;
+    height: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.nav-contacts-div-first {
+    width: 161px;
+    height: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-contacts-email {
+    width: 135px;
+    font-size: 14px;
+    line-height: 1.17;
+    font-weight: 500;
+    letter-spacing: 2%;
+}
+
+.nav-contacts-number {
+    width: 122px;
+    font-size: 14px;
+    line-height: 1.17;
+    font-weight: 500;
+    letter-spacing: 2%;
+}
+
+.nav-contacts-a:hover .nav-contacts-envelope,
+.nav-contacts-a:focus .nav-contacts-envelope,
+.nav-contacts-a:hover .nav-contacts-phone,
+.nav-contacts-a:focus .nav-contacts-phone {
+    fill: var(--hover-and-logo-font-color);
 }
 
 .nav-contacts-envelope {
