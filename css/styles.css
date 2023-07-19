@@ -53,6 +53,10 @@ header div {
     align-items: center;
 }
 
+/* .header-main-div {
+
+} */
+
 .nav {
     display: flex;
     align-items: center;
@@ -108,18 +112,26 @@ header div {
 
 .nav-contacts-a {
     color: var(--secondary-font-color);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-contacts-icons {
+
 }
 
 .nav-contacts-envelope {
     width: 16px;
     height: 12px;
-    color: var(--secondary-font-color);
+    fill: var(--secondary-font-color);
 }
 
 .nav-contacts-phone {
     width: 10px;
     height: 16px;
-    color: var(--hover-and-logo-font-color);
+    fill: var(--secondary-font-color);
 }
 
 /* ///// MAIN ///// */
