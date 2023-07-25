@@ -211,15 +211,22 @@ main {
 /* ///// ORDER INFO ///// */
 
 .order-info {
-    background-color: #2F303A;
+    height: 600px;
+    background-image: url("../images/background.jpg");
+}
+
+.order-info-main {
+    width: var(--secondary-width);
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 600px;
-    background-image: url("../images/background.jpg");
-/*     background: rgba(47, 48, 58, 0.4);
-    background: rgba(196, 196, 196, 1); */
+}
+
+.order-info-svg {
+    position: absolute;
+    z-index: 1;
 }
 
 h1 {
@@ -229,6 +236,7 @@ h1 {
     font-weight: 900;
     text-align: center;
     line-height: 1.36;
+    z-index: 2;
 }
 
 .order-button {
@@ -245,6 +253,7 @@ h1 {
     border: 0px;
     font-family: 'Roboto', sans-serif;
     box-shadow: 0px 4px 4px 0px #00000026;
+    z-index: 2;
 }
 
 .order-button:hover {
@@ -255,13 +264,11 @@ h1 {
 /* ///// ABOUT US AND ABOUT US WHAT DO */
 
 .about-us-and-what-do {
-    height: 776px;
+    height: 916px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
-
-
 
 /* ///// ABOUT US ///// */
 
@@ -355,12 +362,15 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 386px;
 }
 
 .about-us-and-what-do-main {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     width: var(--main-width);
+    height: 386px;
 }
 
 .about-us-what-do h2 {
@@ -369,6 +379,7 @@ h1 {
     display: flex;
     justify-content: center;
     font-weight: 700;
+    margin: 0;
 }
 
 .about-us-what-do-list {
@@ -376,6 +387,7 @@ h1 {
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
+    margin: 0;
 }
 
 .about-us-what-do-list img {
@@ -541,6 +553,39 @@ h1 {
 .facebook-icon,
 .linkedin-icon {
     fill: #AFB1B8;
+}
+
+/* ///// REGULAR CUSTOMERS ///// */
+
+.regular-customers {
+    height: 372px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.regular-customers-container {
+    width: var(--main-width);
+    height: 184px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.regular-customers-container p {
+     font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin: 0;
+}
+
+.regular-customers-logo {
+    display: flex;
+    justify-content: space-between;
+    width: var(--main-width);
 }
 
 /* ///// FOOTER ///// */
