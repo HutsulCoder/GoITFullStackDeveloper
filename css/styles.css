@@ -582,10 +582,23 @@ h1 {
     margin: 0;
 }
 
+.regular-customers-container div {
+    width: var(--main-width);
+}
+
 .regular-customers-logo {
     display: flex;
     justify-content: space-between;
     width: var(--main-width);
+    margin: 0;
+}
+
+.regular-customers-link:hover path {
+    fill: var(--hover-and-logo-font-color);
+}
+
+.regular-customers-svg:hover rect {
+    stroke: var(--hover-and-logo-font-color);
 }
 
 /* ///// FOOTER ///// */
@@ -594,17 +607,23 @@ footer {
     height: 252px;
     background-color: #2F303A;
     width: var(--secondary-width);
+}
+
+.footer-width {
+    width: var(--main-width);
+    height: 252px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
 }
 
-footer div {
+.footer-div {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    width: var(--main-width);
+    width: 231px;
 }
 
 .logo-style-studio-footer {
@@ -634,4 +653,14 @@ footer ul {
     line-height: 24px;
     letter-spacing: 0.03em;
     text-align: left;
+}
+
+.footer-social {
+    width: 206px;
+    height: 80px;
+}
+
+.footer-subscribe {
+    width: 570px;
+    height: 86px;
 }
