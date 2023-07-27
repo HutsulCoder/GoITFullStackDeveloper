@@ -607,13 +607,15 @@ footer {
     height: 252px;
     background-color: #2F303A;
     width: var(--secondary-width);
+    display: flex;
+    justify-content: center;
 }
 
 .footer-width {
     width: var(--main-width);
     height: 252px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: row;
 }
@@ -658,6 +660,62 @@ footer ul {
 .footer-social {
     width: 206px;
     height: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.footer-social p {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    font-size: 14px;
+    margin: 0;
+}
+
+.footer-social-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+
+}
+
+.instagram-footer:hover .circle-icon-footer,
+.instagram-footer:focus .circle-icon-footer,
+.twitter-footer:hover .circle-icon-footer,
+.twitter-footer:focus .circle-icon-footer,
+.facebook-footer:hover .circle-icon-footer,
+.facebook-footer:focus .circle-icon-footer,
+.linkedin-footer:hover .circle-icon-footer,
+.linkedin-footer:focus .circle-icon-footer {
+    /* Hover for circles socisal icons in footer */
+    fill: #2196F3;
+}
+
+.instagram-footer:hover .insta-icon-footer,
+.instagram-footer:focus .insta-icon-footer,
+.twitter-footer:hover .twitter-icon-footer,
+.twitter-footer:focus .twitter-icon-footer,
+.facebook-footer:hover .facebook-icon-footer,
+.facebook-footer:focus .facebook-icon-footer,
+.linkedin-footer:hover .linkedin-icon-footer,
+.linkedin-footer:focus .linkedin-icon-footer {
+    /* Hover for social icons in footer */
+    /* Why didn't work */
+    fill: #ffffff;
+}
+
+.circle-icon-footer {
+    fill: #FFFFFF1A;;
+}
+
+.insta-icon-footer,
+.twitter-icon-footer,
+.facebook-icon-footer,
+.linkedin-icon-footer {
+    fill: #FFFFFF;
 }
 
 .footer-subscribe {
