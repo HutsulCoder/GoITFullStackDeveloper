@@ -735,9 +735,22 @@ footer ul {
     margin: 0;
 }
 
+.footer-subscribe form {
+    display: flex;
+    justify-content: space-between;
+}
+
 .footer-subscribe-email {
-    width: 358px;
-    height: 50px;
+    width: 316px;
+    background-color: #2F303A;
+    border: solid 1px #FFFFFF4D;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    padding: 0px 20px 0px 20px;
+    color: #FFFFFF99;
 }
 
 .footer-subscribe-button {
@@ -756,5 +769,6 @@ footer ul {
     box-shadow: 0px 4px 4px 0px #00000026;
     background-image: url(/images/footer-social.svg);
     background-repeat: no-repeat;
-    background-position: right 10% bottom 50%;
+    background-position: right 13% bottom 50%;
+    padding: 0px 25px 0px 0px;
 }
