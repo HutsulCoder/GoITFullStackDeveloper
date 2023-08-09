@@ -36,6 +36,24 @@ ul {
     color: var(--hover-and-logo-font-color);
 }
 
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+[class*="__container"]{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+@media (max-width: 1199.98px){
+    [class*="__container"] {
+        max-width: 970px;
+    }
+
+}
 
 /* ///// HEADER ///// */
 
